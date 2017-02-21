@@ -1,0 +1,11 @@
+
+function confirmEnding(str, target) {
+  
+  var lastWord = str;
+  var lastChar = lastWord.substring(lastWord.length - target.length);
+  if (lastChar === target ) {
+    return true;
+  }
+  else return false;
+  
+}

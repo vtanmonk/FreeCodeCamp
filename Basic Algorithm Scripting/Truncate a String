@@ -1,0 +1,14 @@
+
+function truncateString(str, num) {
+ if (num <= 3) {
+   return str.slice(0,num) + "...";
+ }
+  else if (str.length > num) {
+  var newString = str.slice(0, num - 3);
+ var longString = newString + "...";
+  return longString;
+}
+  else 
+    return str;
+   
+}
